@@ -53,7 +53,7 @@
 .comment.comment-self		.comment-content		{ background: #fefef1; border-color: #e6e6bd; }
 .comment.comment-self		.comment-content:after 	{ border-color: #e6e6bd transparent transparent; }
 .comment.comment-self 		.comment-content:before { border-color: #fefef1 transparent transparent; }
-.comment.comment-new 		.comment-content		{ background: #fff; border-color: #dddb5c; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); }
+.comment.comment-new 		.comment-content		{ background: #fff; border-color: #dddb5c; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); } /* fix */
 .comment.comment-new		.comment-content:after 	{ border-color: #dddb5c transparent transparent; }
 .comment.comment-new 		.comment-content:before { border-color: #fff transparent transparent; }
 .comment.comment-current 	.comment-content		{ background: #cdf5a6; border-color: #bae48e; }
@@ -108,7 +108,7 @@
 .comment .comment-info li.vote.vote-count-positive .vote-count { color: #51983c; }
 .comment .comment-info li.vote.vote-count-negative .vote-count { color: #da4242; }
 
-.comment .comment-info li.vote.voted-up .vote-down 		{ display: none; }
+.comment .comment-info li.vote.voted-up .vote-down 		{ display: none; } /* fix */
 .comment .comment-info li.vote.voted-up .vote-up 		{ background-position: -20px -170px; }
 .comment .comment-info li.vote.voted-down .vote-down 	{ background-position: 0 -170px; }
 .comment .comment-info li.vote.voted-down .vote-up 		{ display: none; }
